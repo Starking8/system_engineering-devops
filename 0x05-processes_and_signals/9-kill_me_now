@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that kills the infinite loop process
+
+pkill -f 7-infinite_loop
