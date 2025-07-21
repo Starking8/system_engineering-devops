@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# A Bash script that catches SIGINT and exits
+
+trap "echo 'Caught SIGINT, exiting'; exit" SIGINT
+
+while true
+do
+    sleep 1
+done
