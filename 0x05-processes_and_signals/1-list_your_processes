@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that lists your running processes without headers
+
+ps -u "$USER" -o pid
