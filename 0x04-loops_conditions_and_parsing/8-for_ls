@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script lists filenames after the first dash using a for loop
+
+for file in *; do
+  # Skip if it doesn't have a dash
+  if [[ "$file" == *-* ]]; then
+    echo "${file#*-}"
+  fi
+done
