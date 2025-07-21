@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that stops a process using the PID stored in stop_me_if_you_can
+
+kill "$(cat stop_me_if_you_can)"
