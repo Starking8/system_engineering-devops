@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A Bash script that starts an infinite loop in background and prints its PID
+
+./7-infinite_loop &
+echo "$!"
