@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that shows the PID of the Bash shell running this script using ps
+
+ps -p "$$" -o pid=
